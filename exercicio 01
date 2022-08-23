@@ -1,0 +1,18 @@
+/******************************************************************************
+
+Faça um Programa que peça um número e 
+então mostre a mensagem O número informado foi [número].ela. lista 1
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("informe o numero:\n ");
+    scanf("%d",&num);
+    
+    printf("numero digitado: %i",num);
+
+    return 0;
+}
